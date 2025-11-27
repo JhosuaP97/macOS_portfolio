@@ -11,6 +11,9 @@ dependencies:
   '@tailwindcss/vite':
     specifier: ^4.1.17
     version: 4.1.17(vite@7.2.4)
+  clsx:
+    specifier: ^2.1.1
+    version: 2.1.1
   dayjs:
     specifier: ^1.11.19
     version: 1.11.19

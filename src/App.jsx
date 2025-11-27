@@ -1,5 +1,13 @@
 import gsap from "gsap";
-import { Resume, Safari, Terminal } from "@windows";
+import {
+  Resume,
+  Safari,
+  Terminal,
+  Finder,
+  Text,
+  Image,
+  Contact,
+} from "@windows";
 
 import { Navbar, Welcome, Dock } from "@components";
 import { Draggable } from "gsap/Draggable";
@@ -15,6 +23,10 @@ const App = () => {
       <Terminal />
       <Safari />
       <Resume />
+      <Finder />
+      <Text />
+      <Image />
+      <Contact />
     </main>
   );
 };
